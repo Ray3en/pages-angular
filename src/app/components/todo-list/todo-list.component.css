@@ -1,0 +1,11 @@
+.todos_wrapper{
+    margin: 35px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.todos_wrapper > div {
+    padding: 35px;
+    border: 1px solid black;
+}
